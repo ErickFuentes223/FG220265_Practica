@@ -1,0 +1,455 @@
+/*Genarales*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+body{
+    background-color: white;
+}
+
+header{
+    overflow: hidden;
+    position: inherit;
+    background-color: black;
+
+}
+
+header img{
+    float: left;
+    height: 75px;
+    width: 200px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    position: static;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Listas en general*/
+
+nav ul{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    list-style-type: none;
+}
+
+nav li{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 2.5em;
+}
+
+nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ddd;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgba(255, 0, 0, 0.884);
+}
+
+/*Primer nivel lista */
+
+nav>ul{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+
+nav>ul>li{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    float: left;
+    font-size: x-large;
+    padding-top: 1em;
+    margin-left: 1.4em;    
+    font-weight: 500;
+
+}
+
+ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+/*Segundo nivel lista */
+
+nav>ul>li>ul{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    display: none;
+    z-index: 9;
+    background-color: rgb(0, 0, 0);
+}
+
+nav>ul>li:hover ul{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    display: block;
+}
+
+
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#fondo:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.801);
+}
+
+.titulo{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 800;
+font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#video {
+    padding: 30px 50px;
+}
+
+#mcgregor {
+    background-image: url(https://i.postimg.cc/wTq3N0P1/Mc.png);
+    display: inline;
+    padding-left: 250px;
+    padding-top: 460px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#walker {
+    background-image: url(https://i.postimg.cc/jSQpfYWf/xd.png);
+    display: inline;
+    padding-left: 250px;
+    padding-top: 460px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#divwallpaper{
+    background-color: white;
+}
+
+.galeria{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#conor{
+    padding: 50px 50px;
+    float: left;
+}
+
+#divxd{
+overflow: hidden;
+}
+
+#aside{
+   padding-top: 5px;
+   font-size: 20px;
+   padding-right: 20px;
+}
+
+#section{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+aside{
+    padding-top: 70px;
+}
+
+aside h4:first-child{
+    font-size: 80px;
+    text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-weight: bolder;
+font-style: italic;
+}
+
+aside p:first-letter{
+font-size: 3em;
+}
+
+section h1:first-line{
+    font-size: 100px;
+}
+
+footer img{
+    float: left;
+    height: 75px;
+    width: 200px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5.5em;
+    position: static;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.vinculo:link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.vinculo:visited{
+    color: red;
+    text-decoration: none;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+/*Lista definicion */
+
+.definicion{
+    background-color: black;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.definicion section dl dt:first-child{
+    color: red;
+    font-size: 5em;
+    font-style: italic;
+    font-weight:bolder;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+
+}
+
+.definicion dd{
+    padding-top: 1%;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#table{
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-spacing: 80px 20px;
+    border-collapse: separate;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+table>caption{
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+thead{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+}
+
+#conor:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+#iconos ul{
+    list-style-image: url(../img/guante.png);
+    margin-left: 45%;
+    line-height: 1.5em;
+}
+
+#iconos h3{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#lmao{
+    text-align: center;
+}
+
+#mapa{
+    height: 400px;
+    width: 60%;
+    margin-left: 22%;
+}
+
+.fa-align-justify {
+    color: white;
+    float:right;
+    cursor: pointer;
+    display: none;
+    margin-top: 3em;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width:952px){
+
+    header img{
+        height: 5em;
+        width: 10em;
+    }
+
+    nav>ul{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Titillium Web', sans-serif;
+        width: 100%;
+    }
+    
+    nav>ul>li{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Titillium Web', sans-serif;
+        float: left;
+        font-size:medium;
+        margin-top: 1.6em;
+        margin-left: 1em;    
+        font-weight: 500;
+    
+    }
+    
+    ul li a{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Titillium Web', sans-serif;
+        text-align: center;
+    }
+
+    #mcgregor {
+        background-image: url(https://i.postimg.cc/wTq3N0P1/Mc.png);
+        display: block;
+        margin-left:250px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    
+    #walker {
+        margin: 0%;
+        padding: 0%;}
+
+        #video {
+            padding: 0px 50px;
+        }
+
+}
+
+@media (max-width:858px){
+ header{
+     width: 100%;
+ }
+
+    .check{
+        display: block;
+    }
+
+    nav>ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 6.8em;
+        left: -200%;
+        z-index: 8;
+        text-align: center;
+        background: red;
+        padding-left: 6em ;
+        transition: all .5s;
+    }
+
+    nav>ul>li{
+        display: block;
+    }
+
+    nav ul li a{
+        font-size: larger;
+    }
+
+    #check:checked~nav>ul{
+        left: 0;
+    }
+       
+}
+
+#luchador{
+    
+        position: relative;
+        cursor: pointer;
+     
+}
